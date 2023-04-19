@@ -106,11 +106,11 @@ if __name__ == '__main__':
 
     try:    
         days = next_n_days(venue, party_size)
-        print("{} reservable dates".format(len(days)))
+        # print("{} reservable dates".format(len(days)))
 
         for ind, day in enumerate(days):        
             slots = get_slots(day, party_size, venue)        
-            print("day: [ {} ], open reservations: [ {} ]".format(ind, len(slots)))
+            # print("day: [ {} ], open reservations: [ {} ]".format(ind, len(slots)))
             
             for slot in slots:
                 if slot_is_ok(range_start, range_end, slot["time"]):
@@ -123,8 +123,8 @@ if __name__ == '__main__':
                     else: 
                         print("couldn't book")
                    
-                else:
-                    print("reservation not eligible: [ {} ] on [ {} ]".format(slot["time"], slot["date"]))
+                # else:
+                    # print("reservation not eligible: [ {} ] on [ {} ]".format(slot["time"], slot["date"]))
             
             if booked:
                 break
