@@ -1,0 +1,2771 @@
+{
+    "query": {
+        "day": "2023-04-29",
+        "party_size": 2
+    },
+    "bookmark": null,
+    "results": {
+        "venues": [
+            {
+                "venue": {
+                    "id": {
+                        "resy": 5769
+                    },
+                    "venue_group": {
+                        "id": 624,
+                        "name": "Hogsalt Admin Group",
+                        "venues": [
+                            834,
+                            4408,
+                            4411,
+                            4412,
+                            4473,
+                            7294,
+                            10294,
+                            54602,
+                            60058
+                        ]
+                    },
+                    "name": "Au Cheval - NYC",
+                    "type": "American",
+                    "url_slug": "au-cheval-nyc",
+                    "price_range": 2,
+                    "average_bill_size": 45.0,
+                    "currency_symbol": "$",
+                    "hospitality_included": 0,
+                    "resy_select": 0,
+                    "is_gdc": 0,
+                    "is_global_dining_access": false,
+                    "is_global_dining_access_only": false,
+                    "requires_reservation_transfers": 0,
+                    "is_gns": 0,
+                    "transaction_processor": "stripe",
+                    "hide_allergy_question": false,
+                    "hide_occasion_question": false,
+                    "hide_special_request_question": false,
+                    "gda_concierge_booking": false,
+                    "tax_included": false,
+                    "rating": 4.74038,
+                    "total_ratings": 12314,
+                    "inventory": {
+                        "type": {
+                            "id": 2
+                        }
+                    },
+                    "reopen": {
+                        "date": "2021-07-02"
+                    },
+                    "location": {
+                        "time_zone": "EST5EDT",
+                        "neighborhood": "Tribeca",
+                        "geo": {
+                            "lat": 40.7181283,
+                            "lon": -74.0019643
+                        },
+                        "code": "ny",
+                        "name": "New York",
+                        "url_slug": null
+                    },
+                    "travel_time": {
+                        "distance": 5391.099937177511
+                    },
+                    "source": {
+                        "name": null,
+                        "logo": null,
+                        "terms_of_service": null,
+                        "privacy_policy": null
+                    },
+                    "service_types": {
+                        "1": {},
+                        "2": {}
+                    },
+                    "top": true,
+                    "ticket": {
+                        "average": 45.0,
+                        "average_str": "$45"
+                    },
+                    "currency": {
+                        "symbol": "$",
+                        "code": "USD"
+                    },
+                    "is_rga": false,
+                    "is_rga_only": false,
+                    "default_template": "344295",
+                    "responsive_images": {
+                        "originals": {
+                            "1d38a9f391774599ecb4c82ef40d1bb51ea9b41c": {
+                                "url": "https://image.resy.com/3/003/2/5769/1d38a9f391774599ecb4c82ef40d1bb51ea9b41c/jpg"
+                            }
+                        },
+                        "urls": {
+                            "1d38a9f391774599ecb4c82ef40d1bb51ea9b41c": {
+                                "1:1": {
+                                    "200": "https://image.resy.com/3/003/2/5769/1d38a9f391774599ecb4c82ef40d1bb51ea9b41c/jpg/1:1/200",
+                                    "400": "https://image.resy.com/3/003/2/5769/1d38a9f391774599ecb4c82ef40d1bb51ea9b41c/jpg/1:1/400",
+                                    "800": "https://image.resy.com/3/003/2/5769/1d38a9f391774599ecb4c82ef40d1bb51ea9b41c/jpg/1:1/800"
+                                },
+                                "4:3": {
+                                    "400": "https://image.resy.com/3/003/2/5769/1d38a9f391774599ecb4c82ef40d1bb51ea9b41c/jpg/4:3/400",
+                                    "800": "https://image.resy.com/3/003/2/5769/1d38a9f391774599ecb4c82ef40d1bb51ea9b41c/jpg/4:3/800",
+                                    "1600": "https://image.resy.com/3/003/2/5769/1d38a9f391774599ecb4c82ef40d1bb51ea9b41c/jpg/4:3/1600"
+                                },
+                                "16:9": {
+                                    "400": "https://image.resy.com/3/003/2/5769/1d38a9f391774599ecb4c82ef40d1bb51ea9b41c/jpg/16:9/400",
+                                    "800": "https://image.resy.com/3/003/2/5769/1d38a9f391774599ecb4c82ef40d1bb51ea9b41c/jpg/16:9/800",
+                                    "1600": "https://image.resy.com/3/003/2/5769/1d38a9f391774599ecb4c82ef40d1bb51ea9b41c/jpg/16:9/1600"
+                                }
+                            }
+                        },
+                        "urls_by_resolution": {
+                            "1d38a9f391774599ecb4c82ef40d1bb51ea9b41c": {
+                                "200": {
+                                    "1:1": "https://image.resy.com/3/003/2/5769/1d38a9f391774599ecb4c82ef40d1bb51ea9b41c/jpg/1:1/200"
+                                },
+                                "400": {
+                                    "1:1": "https://image.resy.com/3/003/2/5769/1d38a9f391774599ecb4c82ef40d1bb51ea9b41c/jpg/1:1/400",
+                                    "4:3": "https://image.resy.com/3/003/2/5769/1d38a9f391774599ecb4c82ef40d1bb51ea9b41c/jpg/4:3/400",
+                                    "16:9": "https://image.resy.com/3/003/2/5769/1d38a9f391774599ecb4c82ef40d1bb51ea9b41c/jpg/16:9/400"
+                                },
+                                "800": {
+                                    "1:1": "https://image.resy.com/3/003/2/5769/1d38a9f391774599ecb4c82ef40d1bb51ea9b41c/jpg/1:1/800",
+                                    "4:3": "https://image.resy.com/3/003/2/5769/1d38a9f391774599ecb4c82ef40d1bb51ea9b41c/jpg/4:3/800",
+                                    "16:9": "https://image.resy.com/3/003/2/5769/1d38a9f391774599ecb4c82ef40d1bb51ea9b41c/jpg/16:9/800"
+                                },
+                                "1600": {
+                                    "4:3": "https://image.resy.com/3/003/2/5769/1d38a9f391774599ecb4c82ef40d1bb51ea9b41c/jpg/4:3/1600",
+                                    "16:9": "https://image.resy.com/3/003/2/5769/1d38a9f391774599ecb4c82ef40d1bb51ea9b41c/jpg/16:9/1600"
+                                }
+                            }
+                        },
+                        "file_names": [
+                            "1d38a9f391774599ecb4c82ef40d1bb51ea9b41c"
+                        ],
+                        "aspect_ratios": {
+                            "1:1": {
+                                "200": "200x200",
+                                "400": "400x400",
+                                "800": "800x800",
+                                "1600": "1600x1600"
+                            },
+                            "4:3": {
+                                "400": "400x300",
+                                "800": "800x600",
+                                "1600": "1600x1200"
+                            },
+                            "16:9": {
+                                "400": "400x225",
+                                "800": "800x450",
+                                "1600": "1600x900"
+                            }
+                        }
+                    },
+                    "notify_options": [
+                        {
+                            "service_type_id": 1,
+                            "min_request_datetime": "2023-04-29 10:30:00",
+                            "max_request_datetime": "2023-04-29 15:30:00",
+                            "step_minutes": 30
+                        },
+                        {
+                            "service_type_id": 2,
+                            "min_request_datetime": "2023-04-29 16:30:00",
+                            "max_request_datetime": "2023-04-29 23:00:00",
+                            "step_minutes": 30
+                        }
+                    ],
+                    "favorite": null,
+                    "waitlist": {
+                        "available": 0,
+                        "label": "Join Wait List",
+                        "current": null
+                    },
+                    "supports_pickups": 0,
+                    "collections": [
+                        {
+                            "id": 888,
+                            "type_id": 2,
+                            "file_name": "book-tonight",
+                            "image": "https://s3.amazonaws.com/resy.com/images/lists/book-tonight.svg",
+                            "name": "Book Tonight",
+                            "short_name": "Book Tonight",
+                            "description": "Book these venues tonight."
+                        },
+                        {
+                            "id": 889,
+                            "type_id": 3,
+                            "file_name": "climbing",
+                            "image": "https://s3.amazonaws.com/resy.com/images/lists/climbing.svg",
+                            "name": "Climbing",
+                            "short_name": "Climbing",
+                            "description": "You dine, the restaurant climbs. Climbing on Resy is the only data-driven list powered by your reservations. Consider it a curated guide by locals, for locals."
+                        }
+                    ],
+                    "content": [
+                        {
+                            "attribution": null,
+                            "body": "Once you’ve realized that the mastermind behind 4 Charles is also behind this swanky spot, it’ll come as no surprise that Au Cheval boasts one of the country’s most lauded and beloved burgers.",
+                            "display": {
+                                "type": "text"
+                            },
+                            "icon": {
+                                "url": "https://s3.amazonaws.com/resy.com/images/icons/heart.svg"
+                            },
+                            "locale": {
+                                "language": "en-us"
+                            },
+                            "name": "why_we_like_it",
+                            "title": null
+                        }
+                    ],
+                    "allow_bypass_payment_method": 1,
+                    "events": []
+                },
+                "templates": {
+                    "344295": {
+                        "is_paid": false,
+                        "venue_share": null,
+                        "restriction_id": null,
+                        "payment_structure": null,
+                        "cancellation_fee": null,
+                        "secs_cancel_cut_off": null,
+                        "time_cancel_cut_off": null,
+                        "secs_change_cut_off": null,
+                        "time_change_cut_off": null,
+                        "large_party_size_cancel": null,
+                        "large_party_cancellation_fee": null,
+                        "large_party_secs_cancel_cut_off": null,
+                        "large_party_time_cancel_cut_off": null,
+                        "large_party_secs_change_cut_off": null,
+                        "large_party_time_change_cut_off": null,
+                        "deposit_fee": null,
+                        "service_charge": null,
+                        "service_charge_options": [],
+                        "images": [
+                            "https://image.resy.com/3/003/2/5769/1d38a9f391774599ecb4c82ef40d1bb51ea9b41c/jpg/640x360"
+                        ],
+                        "raw_image_names": [
+                            "1d38a9f391774599ecb4c82ef40d1bb51ea9b41c"
+                        ],
+                        "image_dimensions": [
+                            [
+                                2078,
+                                1299
+                            ]
+                        ],
+                        "is_default": 1,
+                        "is_event": 0,
+                        "is_pickup": 0,
+                        "pickup_highlight": 0,
+                        "venue_id": 5769,
+                        "reservation_config": {
+                            "badge": null,
+                            "type": "",
+                            "secs_off_market": null,
+                            "time_off_market": null
+                        },
+                        "turn_times": [
+                            {
+                                "secs_amount": 4500,
+                                "size": {
+                                    "max": 1,
+                                    "min": 1
+                                }
+                            },
+                            {
+                                "secs_amount": 5400,
+                                "size": {
+                                    "max": 2,
+                                    "min": 2
+                                }
+                            },
+                            {
+                                "secs_amount": 5400,
+                                "size": {
+                                    "max": 3,
+                                    "min": 3
+                                }
+                            },
+                            {
+                                "secs_amount": 5400,
+                                "size": {
+                                    "max": 4,
+                                    "min": 4
+                                }
+                            },
+                            {
+                                "secs_amount": 9000,
+                                "size": {
+                                    "max": 5,
+                                    "min": 5
+                                }
+                            },
+                            {
+                                "secs_amount": 9000,
+                                "size": {
+                                    "max": 6,
+                                    "min": 6
+                                }
+                            },
+                            {
+                                "secs_amount": 9000,
+                                "size": {
+                                    "max": 7,
+                                    "min": 7
+                                }
+                            },
+                            {
+                                "secs_amount": 9000,
+                                "size": {
+                                    "max": 8,
+                                    "min": 8
+                                }
+                            },
+                            {
+                                "secs_amount": 9900,
+                                "size": {
+                                    "max": null,
+                                    "min": 9
+                                }
+                            }
+                        ],
+                        "display_config": {
+                            "color": {
+                                "background": null,
+                                "font": null
+                            }
+                        },
+                        "content": {
+                            "en-us": {
+                                "about": {
+                                    "attribution": null,
+                                    "body": "Hidden down Cortlandt Alley, Au Cheval reimagines traditional fare, from roasted bone marrow to salads, griddled cheeseburgers to seafood selections and of course, prime steaks. Guests can enjoy strong, classic cocktails, a global wine list and a robust selection of draught beers while lounging in leather booths, or seated at the zinc bar, while the open kitchen works to a pulsating and resonant soundtrack.",
+                                    "title": null
+                                },
+                                "need_to_know": {
+                                    "attribution": null,
+                                    "body": "Au Cheval is accepting reservations up to 14 days in advance with each new day becoming available at 9 AM EST.\nWe are an intimate restaurant and accept reservations for parties of 1-6 guests. We kindly ask that you do not make multiple reservations for more than one group. Counter seating is available for walk-in guests on a first come first serve basis.\n\nA $2.50 per person reservation fee will be added to all reservations made online. Holiday fees may vary. This is to secure your seats with us. We do not charge a reservation fee for walk-in guests.   ",
+                                    "title": "Need to Know"
+                                },
+                                "tagline": {
+                                    "attribution": null,
+                                    "body": "Elevated traditional diner fare. ",
+                                    "title": null
+                                },
+                                "why_we_like_it": {
+                                    "attribution": null,
+                                    "body": "Once you’ve realized that the mastermind behind 4 Charles is also behind this swanky spot, it’ll come as no surprise that Au Cheval boasts one of the country’s most lauded and beloved burgers.",
+                                    "title": null
+                                }
+                            }
+                        },
+                        "id": 344295,
+                        "menu": {},
+                        "name": "UPDATED_DEFAULT_TEMPLATE",
+                        "item_ids": [],
+                        "menu_ids": []
+                    },
+                    "1860812": {
+                        "is_paid": true,
+                        "venue_share": 100,
+                        "restriction_id": null,
+                        "payment_structure": 4,
+                        "cancellation_fee": null,
+                        "secs_cancel_cut_off": 0,
+                        "time_cancel_cut_off": "09:00:00",
+                        "secs_change_cut_off": 0,
+                        "time_change_cut_off": "09:00:00",
+                        "large_party_size_cancel": null,
+                        "large_party_cancellation_fee": null,
+                        "large_party_secs_cancel_cut_off": null,
+                        "large_party_time_cancel_cut_off": null,
+                        "large_party_secs_change_cut_off": null,
+                        "large_party_time_change_cut_off": null,
+                        "deposit_fee": 2.29,
+                        "service_charge": "0%",
+                        "service_charge_options": [],
+                        "images": [
+                            "https://image.resy.com/3/003/2/5769/1d38a9f391774599ecb4c82ef40d1bb51ea9b41c/jpg/640x360"
+                        ],
+                        "raw_image_names": [
+                            "1d38a9f391774599ecb4c82ef40d1bb51ea9b41c"
+                        ],
+                        "image_dimensions": [
+                            [
+                                2078,
+                                1299
+                            ]
+                        ],
+                        "is_default": 0,
+                        "is_event": 0,
+                        "is_pickup": 0,
+                        "pickup_highlight": 0,
+                        "venue_id": 5769,
+                        "reservation_config": {
+                            "badge": null,
+                            "type": "",
+                            "secs_off_market": 300,
+                            "time_off_market": null
+                        },
+                        "turn_times": [
+                            {
+                                "secs_amount": 2700,
+                                "size": {
+                                    "max": 1,
+                                    "min": 1
+                                }
+                            },
+                            {
+                                "secs_amount": 3600,
+                                "size": {
+                                    "max": 2,
+                                    "min": 2
+                                }
+                            },
+                            {
+                                "secs_amount": 5400,
+                                "size": {
+                                    "max": 4,
+                                    "min": 3
+                                }
+                            },
+                            {
+                                "secs_amount": 6300,
+                                "size": {
+                                    "max": 6,
+                                    "min": 5
+                                }
+                            },
+                            {
+                                "secs_amount": 7200,
+                                "size": {
+                                    "max": null,
+                                    "min": 7
+                                }
+                            }
+                        ],
+                        "display_config": {
+                            "color": {
+                                "background": "2651A6",
+                                "font": "FFFFFF"
+                            }
+                        },
+                        "content": {
+                            "en-us": {
+                                "about": {
+                                    "attribution": null,
+                                    "body": "Our $2.50 per person booking fee secures your seats at the restaurant. This is not a deposit that goes towards your final bill, but a one time fee to secure your reservation. \n\nAny changes or cancellations that are made by 9 AM on the day of your reservation will automatically be refunded. The fee is nonrefundable after the cancellation window expires.",
+                                    "title": null
+                                },
+                                "need_to_know": {
+                                    "attribution": null,
+                                    "body": "We accept reservations for parties of 1-6 guests. We kindly ask that you do not make multiple reservations for more than one group. Counter seating is available for walk-in guests on a first come first serve basis.",
+                                    "title": null
+                                },
+                                "tagline": {
+                                    "attribution": null,
+                                    "body": "Elevated traditional diner fare. ",
+                                    "title": null
+                                },
+                                "why_we_like_it": {
+                                    "attribution": null,
+                                    "body": "Once you’ve realized that the mastermind behind 4 Charles is also behind this swanky spot, it’ll come as no surprise that Au Cheval boasts one of the country’s most lauded and beloved burgers.",
+                                    "title": null
+                                }
+                            }
+                        },
+                        "id": 1860812,
+                        "menu": {
+                            "en-us": []
+                        },
+                        "name": "1860812",
+                        "item_ids": [],
+                        "menu_ids": []
+                    },
+                    "1860813": {
+                        "is_paid": true,
+                        "venue_share": 100,
+                        "restriction_id": null,
+                        "payment_structure": 4,
+                        "cancellation_fee": null,
+                        "secs_cancel_cut_off": 0,
+                        "time_cancel_cut_off": "09:00:00",
+                        "secs_change_cut_off": 0,
+                        "time_change_cut_off": "09:00:00",
+                        "large_party_size_cancel": null,
+                        "large_party_cancellation_fee": null,
+                        "large_party_secs_cancel_cut_off": null,
+                        "large_party_time_cancel_cut_off": null,
+                        "large_party_secs_change_cut_off": null,
+                        "large_party_time_change_cut_off": null,
+                        "deposit_fee": 2.29,
+                        "service_charge": "0%",
+                        "service_charge_options": [],
+                        "images": [
+                            "https://image.resy.com/3/003/2/5769/1d38a9f391774599ecb4c82ef40d1bb51ea9b41c/jpg/640x360"
+                        ],
+                        "raw_image_names": [
+                            "1d38a9f391774599ecb4c82ef40d1bb51ea9b41c"
+                        ],
+                        "image_dimensions": [
+                            [
+                                2078,
+                                1299
+                            ]
+                        ],
+                        "is_default": 0,
+                        "is_event": 0,
+                        "is_pickup": 0,
+                        "pickup_highlight": 0,
+                        "venue_id": 5769,
+                        "reservation_config": {
+                            "badge": null,
+                            "type": "Counter Seats",
+                            "secs_off_market": 300,
+                            "time_off_market": null
+                        },
+                        "turn_times": [
+                            {
+                                "secs_amount": 2700,
+                                "size": {
+                                    "max": 1,
+                                    "min": 1
+                                }
+                            },
+                            {
+                                "secs_amount": 5400,
+                                "size": {
+                                    "max": 2,
+                                    "min": 2
+                                }
+                            },
+                            {
+                                "secs_amount": 7200,
+                                "size": {
+                                    "max": 5,
+                                    "min": 3
+                                }
+                            },
+                            {
+                                "secs_amount": 8100,
+                                "size": {
+                                    "max": 6,
+                                    "min": 6
+                                }
+                            },
+                            {
+                                "secs_amount": 7200,
+                                "size": {
+                                    "max": null,
+                                    "min": 7
+                                }
+                            }
+                        ],
+                        "display_config": {
+                            "color": {
+                                "background": "2651A6",
+                                "font": "FFFFFF"
+                            }
+                        },
+                        "content": {
+                            "en-us": {
+                                "about": {
+                                    "attribution": null,
+                                    "body": "This is a reservation for seats at the counter. \n\nOur $2.50 per person booking fee secures your seats at the restaurant. This is not a deposit that goes towards your final bill, but a one time fee to secure your reservation. \n\nAny changes or cancellations that are made by 9 AM on the day of your reservation will automatically be refunded. The fee is nonrefundable after the cancellation window expires.",
+                                    "title": null
+                                },
+                                "need_to_know": {
+                                    "attribution": null,
+                                    "body": null,
+                                    "title": null
+                                },
+                                "tagline": {
+                                    "attribution": null,
+                                    "body": "Elevated traditional diner fare. ",
+                                    "title": null
+                                },
+                                "why_we_like_it": {
+                                    "attribution": null,
+                                    "body": "Once you’ve realized that the mastermind behind 4 Charles is also behind this swanky spot, it’ll come as no surprise that Au Cheval boasts one of the country’s most lauded and beloved burgers.",
+                                    "title": null
+                                }
+                            }
+                        },
+                        "id": 1860813,
+                        "menu": {
+                            "en-us": []
+                        },
+                        "name": "1860813",
+                        "item_ids": [],
+                        "menu_ids": []
+                    },
+                    "2071019": {
+                        "is_paid": true,
+                        "venue_share": 100,
+                        "restriction_id": null,
+                        "payment_structure": 4,
+                        "cancellation_fee": null,
+                        "secs_cancel_cut_off": 86400,
+                        "time_cancel_cut_off": null,
+                        "secs_change_cut_off": 86400,
+                        "time_change_cut_off": null,
+                        "large_party_size_cancel": null,
+                        "large_party_cancellation_fee": null,
+                        "large_party_secs_cancel_cut_off": null,
+                        "large_party_time_cancel_cut_off": null,
+                        "large_party_secs_change_cut_off": null,
+                        "large_party_time_change_cut_off": null,
+                        "deposit_fee": 2.29,
+                        "service_charge": "0%",
+                        "service_charge_options": [],
+                        "images": [
+                            "https://image.resy.com/3/003/2/5769/1d38a9f391774599ecb4c82ef40d1bb51ea9b41c/jpg/640x360"
+                        ],
+                        "raw_image_names": [
+                            "1d38a9f391774599ecb4c82ef40d1bb51ea9b41c"
+                        ],
+                        "image_dimensions": [
+                            [
+                                2078,
+                                1299
+                            ]
+                        ],
+                        "is_default": 0,
+                        "is_event": 0,
+                        "is_pickup": 0,
+                        "pickup_highlight": 0,
+                        "venue_id": 5769,
+                        "reservation_config": {
+                            "badge": null,
+                            "type": "",
+                            "secs_off_market": 300,
+                            "time_off_market": null
+                        },
+                        "turn_times": [
+                            {
+                                "secs_amount": 6300,
+                                "size": {
+                                    "max": 1,
+                                    "min": 1
+                                }
+                            },
+                            {
+                                "secs_amount": 7200,
+                                "size": {
+                                    "max": 2,
+                                    "min": 2
+                                }
+                            },
+                            {
+                                "secs_amount": 8100,
+                                "size": {
+                                    "max": 4,
+                                    "min": 3
+                                }
+                            },
+                            {
+                                "secs_amount": 9000,
+                                "size": {
+                                    "max": 6,
+                                    "min": 5
+                                }
+                            },
+                            {
+                                "secs_amount": 9900,
+                                "size": {
+                                    "max": null,
+                                    "min": 7
+                                }
+                            }
+                        ],
+                        "display_config": {
+                            "color": {
+                                "background": "2651A6",
+                                "font": "FFFFFF"
+                            }
+                        },
+                        "content": {
+                            "en-us": {
+                                "about": {
+                                    "attribution": null,
+                                    "body": "Our $2.50 per person booking fee secures your seats at the restaurant. This is not a deposit that goes towards your final bill, but a one time fee to secure your reservation. \n\nAny changes or cancellations that are made to your reservation with at least 24 hours of notice will automatically be refunded. The fee is nonrefundable after the cancellation window expires.",
+                                    "title": null
+                                },
+                                "need_to_know": {
+                                    "attribution": null,
+                                    "body": "We specialize in serving smaller groups and accept reservations for parties of 1-6 guests. We kindly ask that you do not make multiple reservations for more than one group. \nWe will hold your table for 15 minutes past your reservation time before offering it to another guest. ",
+                                    "title": null
+                                },
+                                "tagline": {
+                                    "attribution": null,
+                                    "body": "Elevated traditional diner fare. ",
+                                    "title": null
+                                },
+                                "why_we_like_it": {
+                                    "attribution": null,
+                                    "body": "Once you’ve realized that the mastermind behind 4 Charles is also behind this swanky spot, it’ll come as no surprise that Au Cheval boasts one of the country’s most lauded and beloved burgers.",
+                                    "title": null
+                                }
+                            }
+                        },
+                        "id": 2071019,
+                        "menu": {
+                            "en-us": []
+                        },
+                        "name": "2071019",
+                        "item_ids": [],
+                        "menu_ids": []
+                    }
+                },
+                "slots": [
+                    {
+                        "availability": {
+                            "id": 3
+                        },
+                        "config": {
+                            "id": 155091,
+                            "type": "Dining",
+                            "token": "rgs://resy/5769/1860812/1/2023-04-29/2023-04-29/11:00:00/2/Dining"
+                        },
+                        "date": {
+                            "end": "2023-04-29 12:00:00",
+                            "start": "2023-04-29 11:00:00"
+                        },
+                        "exclusive": {
+                            "id": 0
+                        },
+                        "is_global_dining_access": false,
+                        "floorplan": {
+                            "id": 4294
+                        },
+                        "id": null,
+                        "market": {
+                            "date": {
+                                "off": 1682780100,
+                                "on": 1681650000
+                            }
+                        },
+                        "meta": {
+                            "size": {
+                                "assumed": 2
+                            },
+                            "type": {
+                                "id": 1
+                            }
+                        },
+                        "lock": null,
+                        "pacing": {
+                            "beyond": false
+                        },
+                        "score": {
+                            "total": 98.5
+                        },
+                        "shift": {
+                            "id": 623211,
+                            "service": {
+                                "type": {
+                                    "id": 1
+                                }
+                            },
+                            "day": "2023-04-29"
+                        },
+                        "size": {
+                            "max": 2,
+                            "min": 1
+                        },
+                        "status": {
+                            "id": 1
+                        },
+                        "table": {
+                            "id": [
+                                115445
+                            ]
+                        },
+                        "template": {
+                            "id": 1860812
+                        },
+                        "time": {
+                            "turn": {
+                                "actual": 3600,
+                                "estimated": 3600
+                            }
+                        },
+                        "quantity": 12,
+                        "display_config": {
+                            "color": {
+                                "background": "2651A6",
+                                "font": "FFFFFF"
+                            }
+                        },
+                        "reservation_config": {
+                            "badge": null
+                        },
+                        "gdc_perk": null,
+                        "payment": {
+                            "is_paid": true,
+                            "cancellation_fee": null,
+                            "deposit_fee": 2.29,
+                            "service_charge": "0%",
+                            "venue_share": 100,
+                            "payment_structure": 4,
+                            "secs_cancel_cut_off": 0,
+                            "time_cancel_cut_off": "09:00:00",
+                            "secs_change_cut_off": 0,
+                            "time_change_cut_off": "09:00:00",
+                            "service_charge_options": []
+                        }
+                    },
+                    {
+                        "availability": {
+                            "id": 3
+                        },
+                        "config": {
+                            "id": 155091,
+                            "type": "Dining",
+                            "token": "rgs://resy/5769/1860812/1/2023-04-29/2023-04-29/11:15:00/2/Dining"
+                        },
+                        "date": {
+                            "end": "2023-04-29 12:15:00",
+                            "start": "2023-04-29 11:15:00"
+                        },
+                        "exclusive": {
+                            "id": 0
+                        },
+                        "is_global_dining_access": false,
+                        "floorplan": {
+                            "id": 4294
+                        },
+                        "id": null,
+                        "market": {
+                            "date": {
+                                "off": 1682781000,
+                                "on": 1681650000
+                            }
+                        },
+                        "meta": {
+                            "size": {
+                                "assumed": 2
+                            },
+                            "type": {
+                                "id": 1
+                            }
+                        },
+                        "lock": null,
+                        "pacing": {
+                            "beyond": false
+                        },
+                        "score": {
+                            "total": 100.0
+                        },
+                        "shift": {
+                            "id": 623211,
+                            "service": {
+                                "type": {
+                                    "id": 1
+                                }
+                            },
+                            "day": "2023-04-29"
+                        },
+                        "size": {
+                            "max": 2,
+                            "min": 1
+                        },
+                        "status": {
+                            "id": 1
+                        },
+                        "table": {
+                            "id": [
+                                115445
+                            ]
+                        },
+                        "template": {
+                            "id": 1860812
+                        },
+                        "time": {
+                            "turn": {
+                                "actual": 3600,
+                                "estimated": 3600
+                            }
+                        },
+                        "quantity": 10,
+                        "display_config": {
+                            "color": {
+                                "background": "2651A6",
+                                "font": "FFFFFF"
+                            }
+                        },
+                        "reservation_config": {
+                            "badge": null
+                        },
+                        "gdc_perk": null,
+                        "payment": {
+                            "is_paid": true,
+                            "cancellation_fee": null,
+                            "deposit_fee": 2.29,
+                            "service_charge": "0%",
+                            "venue_share": 100,
+                            "payment_structure": 4,
+                            "secs_cancel_cut_off": 0,
+                            "time_cancel_cut_off": "09:00:00",
+                            "secs_change_cut_off": 0,
+                            "time_change_cut_off": "09:00:00",
+                            "service_charge_options": []
+                        }
+                    },
+                    {
+                        "availability": {
+                            "id": 3
+                        },
+                        "config": {
+                            "id": 155073,
+                            "type": "Dining",
+                            "token": "rgs://resy/5769/1860812/1/2023-04-29/2023-04-29/11:30:00/2/Dining"
+                        },
+                        "date": {
+                            "end": "2023-04-29 12:30:00",
+                            "start": "2023-04-29 11:30:00"
+                        },
+                        "exclusive": {
+                            "id": 0
+                        },
+                        "is_global_dining_access": false,
+                        "floorplan": {
+                            "id": 4294
+                        },
+                        "id": null,
+                        "market": {
+                            "date": {
+                                "off": 1682781900,
+                                "on": 1681650000
+                            }
+                        },
+                        "meta": {
+                            "size": {
+                                "assumed": 2
+                            },
+                            "type": {
+                                "id": 1
+                            }
+                        },
+                        "lock": null,
+                        "pacing": {
+                            "beyond": false
+                        },
+                        "score": {
+                            "total": 98.5
+                        },
+                        "shift": {
+                            "id": 623211,
+                            "service": {
+                                "type": {
+                                    "id": 1
+                                }
+                            },
+                            "day": "2023-04-29"
+                        },
+                        "size": {
+                            "max": 2,
+                            "min": 1
+                        },
+                        "status": {
+                            "id": 1
+                        },
+                        "table": {
+                            "id": [
+                                115427
+                            ]
+                        },
+                        "template": {
+                            "id": 1860812
+                        },
+                        "time": {
+                            "turn": {
+                                "actual": 3600,
+                                "estimated": 3600
+                            }
+                        },
+                        "quantity": 1,
+                        "display_config": {
+                            "color": {
+                                "background": "2651A6",
+                                "font": "FFFFFF"
+                            }
+                        },
+                        "reservation_config": {
+                            "badge": null
+                        },
+                        "gdc_perk": null,
+                        "payment": {
+                            "is_paid": true,
+                            "cancellation_fee": null,
+                            "deposit_fee": 2.29,
+                            "service_charge": "0%",
+                            "venue_share": 100,
+                            "payment_structure": 4,
+                            "secs_cancel_cut_off": 0,
+                            "time_cancel_cut_off": "09:00:00",
+                            "secs_change_cut_off": 0,
+                            "time_change_cut_off": "09:00:00",
+                            "service_charge_options": []
+                        }
+                    },
+                    {
+                        "availability": {
+                            "id": 3
+                        },
+                        "config": {
+                            "id": 245122,
+                            "type": "Dining",
+                            "token": "rgs://resy/5769/1860812/1/2023-04-29/2023-04-29/11:45:00/2/Dining"
+                        },
+                        "date": {
+                            "end": "2023-04-29 12:45:00",
+                            "start": "2023-04-29 11:45:00"
+                        },
+                        "exclusive": {
+                            "id": 0
+                        },
+                        "is_global_dining_access": false,
+                        "floorplan": {
+                            "id": 4294
+                        },
+                        "id": null,
+                        "market": {
+                            "date": {
+                                "off": 1682782800,
+                                "on": 1681650000
+                            }
+                        },
+                        "meta": {
+                            "size": {
+                                "assumed": 2
+                            },
+                            "type": {
+                                "id": 1
+                            }
+                        },
+                        "lock": null,
+                        "pacing": {
+                            "beyond": false
+                        },
+                        "score": {
+                            "total": 98.5
+                        },
+                        "shift": {
+                            "id": 623211,
+                            "service": {
+                                "type": {
+                                    "id": 1
+                                }
+                            },
+                            "day": "2023-04-29"
+                        },
+                        "size": {
+                            "max": 2,
+                            "min": 1
+                        },
+                        "status": {
+                            "id": 1
+                        },
+                        "table": {
+                            "id": [
+                                183767
+                            ]
+                        },
+                        "template": {
+                            "id": 1860812
+                        },
+                        "time": {
+                            "turn": {
+                                "actual": 3600,
+                                "estimated": 3600
+                            }
+                        },
+                        "quantity": 2,
+                        "display_config": {
+                            "color": {
+                                "background": "2651A6",
+                                "font": "FFFFFF"
+                            }
+                        },
+                        "reservation_config": {
+                            "badge": null
+                        },
+                        "gdc_perk": null,
+                        "payment": {
+                            "is_paid": true,
+                            "cancellation_fee": null,
+                            "deposit_fee": 2.29,
+                            "service_charge": "0%",
+                            "venue_share": 100,
+                            "payment_structure": 4,
+                            "secs_cancel_cut_off": 0,
+                            "time_cancel_cut_off": "09:00:00",
+                            "secs_change_cut_off": 0,
+                            "time_change_cut_off": "09:00:00",
+                            "service_charge_options": []
+                        }
+                    },
+                    {
+                        "availability": {
+                            "id": 3
+                        },
+                        "config": {
+                            "id": 245123,
+                            "type": "Dining",
+                            "token": "rgs://resy/5769/1860812/1/2023-04-29/2023-04-29/12:15:00/2/Dining"
+                        },
+                        "date": {
+                            "end": "2023-04-29 13:15:00",
+                            "start": "2023-04-29 12:15:00"
+                        },
+                        "exclusive": {
+                            "id": 0
+                        },
+                        "is_global_dining_access": false,
+                        "floorplan": {
+                            "id": 4294
+                        },
+                        "id": null,
+                        "market": {
+                            "date": {
+                                "off": 1682784600,
+                                "on": 1681650000
+                            }
+                        },
+                        "meta": {
+                            "size": {
+                                "assumed": 2
+                            },
+                            "type": {
+                                "id": 1
+                            }
+                        },
+                        "lock": null,
+                        "pacing": {
+                            "beyond": false
+                        },
+                        "score": {
+                            "total": 98.5
+                        },
+                        "shift": {
+                            "id": 623211,
+                            "service": {
+                                "type": {
+                                    "id": 1
+                                }
+                            },
+                            "day": "2023-04-29"
+                        },
+                        "size": {
+                            "max": 2,
+                            "min": 2
+                        },
+                        "status": {
+                            "id": 1
+                        },
+                        "table": {
+                            "id": [
+                                183768
+                            ]
+                        },
+                        "template": {
+                            "id": 1860812
+                        },
+                        "time": {
+                            "turn": {
+                                "actual": 3600,
+                                "estimated": 3600
+                            }
+                        },
+                        "quantity": 1,
+                        "display_config": {
+                            "color": {
+                                "background": "2651A6",
+                                "font": "FFFFFF"
+                            }
+                        },
+                        "reservation_config": {
+                            "badge": null
+                        },
+                        "gdc_perk": null,
+                        "payment": {
+                            "is_paid": true,
+                            "cancellation_fee": null,
+                            "deposit_fee": 2.29,
+                            "service_charge": "0%",
+                            "venue_share": 100,
+                            "payment_structure": 4,
+                            "secs_cancel_cut_off": 0,
+                            "time_cancel_cut_off": "09:00:00",
+                            "secs_change_cut_off": 0,
+                            "time_change_cut_off": "09:00:00",
+                            "service_charge_options": []
+                        }
+                    },
+                    {
+                        "availability": {
+                            "id": 3
+                        },
+                        "config": {
+                            "id": 155085,
+                            "type": "Dining",
+                            "token": "rgs://resy/5769/1860812/1/2023-04-29/2023-04-29/12:30:00/2/Dining"
+                        },
+                        "date": {
+                            "end": "2023-04-29 13:30:00",
+                            "start": "2023-04-29 12:30:00"
+                        },
+                        "exclusive": {
+                            "id": 0
+                        },
+                        "is_global_dining_access": false,
+                        "floorplan": {
+                            "id": 4294
+                        },
+                        "id": null,
+                        "market": {
+                            "date": {
+                                "off": 1682785500,
+                                "on": 1681650000
+                            }
+                        },
+                        "meta": {
+                            "size": {
+                                "assumed": 2
+                            },
+                            "type": {
+                                "id": 1
+                            }
+                        },
+                        "lock": null,
+                        "pacing": {
+                            "beyond": false
+                        },
+                        "score": {
+                            "total": 100.0
+                        },
+                        "shift": {
+                            "id": 623211,
+                            "service": {
+                                "type": {
+                                    "id": 1
+                                }
+                            },
+                            "day": "2023-04-29"
+                        },
+                        "size": {
+                            "max": 2,
+                            "min": 2
+                        },
+                        "status": {
+                            "id": 1
+                        },
+                        "table": {
+                            "id": [
+                                115439
+                            ]
+                        },
+                        "template": {
+                            "id": 1860812
+                        },
+                        "time": {
+                            "turn": {
+                                "actual": 3600,
+                                "estimated": 3600
+                            }
+                        },
+                        "quantity": 3,
+                        "display_config": {
+                            "color": {
+                                "background": "2651A6",
+                                "font": "FFFFFF"
+                            }
+                        },
+                        "reservation_config": {
+                            "badge": null
+                        },
+                        "gdc_perk": null,
+                        "payment": {
+                            "is_paid": true,
+                            "cancellation_fee": null,
+                            "deposit_fee": 2.29,
+                            "service_charge": "0%",
+                            "venue_share": 100,
+                            "payment_structure": 4,
+                            "secs_cancel_cut_off": 0,
+                            "time_cancel_cut_off": "09:00:00",
+                            "secs_change_cut_off": 0,
+                            "time_change_cut_off": "09:00:00",
+                            "service_charge_options": []
+                        }
+                    },
+                    {
+                        "availability": {
+                            "id": 3
+                        },
+                        "config": {
+                            "id": 155081,
+                            "type": "Dining",
+                            "token": "rgs://resy/5769/1860812/1/2023-04-29/2023-04-29/13:15:00/2/Dining"
+                        },
+                        "date": {
+                            "end": "2023-04-29 14:15:00",
+                            "start": "2023-04-29 13:15:00"
+                        },
+                        "exclusive": {
+                            "id": 0
+                        },
+                        "is_global_dining_access": false,
+                        "floorplan": {
+                            "id": 4294
+                        },
+                        "id": null,
+                        "market": {
+                            "date": {
+                                "off": 1682788200,
+                                "on": 1681650000
+                            }
+                        },
+                        "meta": {
+                            "size": {
+                                "assumed": 2
+                            },
+                            "type": {
+                                "id": 1
+                            }
+                        },
+                        "lock": null,
+                        "pacing": {
+                            "beyond": false
+                        },
+                        "score": {
+                            "total": 98.5
+                        },
+                        "shift": {
+                            "id": 623211,
+                            "service": {
+                                "type": {
+                                    "id": 1
+                                }
+                            },
+                            "day": "2023-04-29"
+                        },
+                        "size": {
+                            "max": 2,
+                            "min": 1
+                        },
+                        "status": {
+                            "id": 1
+                        },
+                        "table": {
+                            "id": [
+                                115435
+                            ]
+                        },
+                        "template": {
+                            "id": 1860812
+                        },
+                        "time": {
+                            "turn": {
+                                "actual": 3600,
+                                "estimated": 3600
+                            }
+                        },
+                        "quantity": 2,
+                        "display_config": {
+                            "color": {
+                                "background": "2651A6",
+                                "font": "FFFFFF"
+                            }
+                        },
+                        "reservation_config": {
+                            "badge": null
+                        },
+                        "gdc_perk": null,
+                        "payment": {
+                            "is_paid": true,
+                            "cancellation_fee": null,
+                            "deposit_fee": 2.29,
+                            "service_charge": "0%",
+                            "venue_share": 100,
+                            "payment_structure": 4,
+                            "secs_cancel_cut_off": 0,
+                            "time_cancel_cut_off": "09:00:00",
+                            "secs_change_cut_off": 0,
+                            "time_change_cut_off": "09:00:00",
+                            "service_charge_options": []
+                        }
+                    },
+                    {
+                        "availability": {
+                            "id": 3
+                        },
+                        "config": {
+                            "id": 245121,
+                            "type": "Dining",
+                            "token": "rgs://resy/5769/1860812/1/2023-04-29/2023-04-29/13:45:00/2/Dining"
+                        },
+                        "date": {
+                            "end": "2023-04-29 14:45:00",
+                            "start": "2023-04-29 13:45:00"
+                        },
+                        "exclusive": {
+                            "id": 0
+                        },
+                        "is_global_dining_access": false,
+                        "floorplan": {
+                            "id": 4294
+                        },
+                        "id": null,
+                        "market": {
+                            "date": {
+                                "off": 1682790000,
+                                "on": 1681650000
+                            }
+                        },
+                        "meta": {
+                            "size": {
+                                "assumed": 2
+                            },
+                            "type": {
+                                "id": 1
+                            }
+                        },
+                        "lock": null,
+                        "pacing": {
+                            "beyond": false
+                        },
+                        "score": {
+                            "total": 98.5
+                        },
+                        "shift": {
+                            "id": 623211,
+                            "service": {
+                                "type": {
+                                    "id": 1
+                                }
+                            },
+                            "day": "2023-04-29"
+                        },
+                        "size": {
+                            "max": 2,
+                            "min": 1
+                        },
+                        "status": {
+                            "id": 1
+                        },
+                        "table": {
+                            "id": [
+                                183766
+                            ]
+                        },
+                        "template": {
+                            "id": 1860812
+                        },
+                        "time": {
+                            "turn": {
+                                "actual": 3600,
+                                "estimated": 3600
+                            }
+                        },
+                        "quantity": 2,
+                        "display_config": {
+                            "color": {
+                                "background": "2651A6",
+                                "font": "FFFFFF"
+                            }
+                        },
+                        "reservation_config": {
+                            "badge": null
+                        },
+                        "gdc_perk": null,
+                        "payment": {
+                            "is_paid": true,
+                            "cancellation_fee": null,
+                            "deposit_fee": 2.29,
+                            "service_charge": "0%",
+                            "venue_share": 100,
+                            "payment_structure": 4,
+                            "secs_cancel_cut_off": 0,
+                            "time_cancel_cut_off": "09:00:00",
+                            "secs_change_cut_off": 0,
+                            "time_change_cut_off": "09:00:00",
+                            "service_charge_options": []
+                        }
+                    },
+                    {
+                        "availability": {
+                            "id": 3
+                        },
+                        "config": {
+                            "id": 155085,
+                            "type": "Dining",
+                            "token": "rgs://resy/5769/1860812/1/2023-04-29/2023-04-29/14:00:00/2/Dining"
+                        },
+                        "date": {
+                            "end": "2023-04-29 15:00:00",
+                            "start": "2023-04-29 14:00:00"
+                        },
+                        "exclusive": {
+                            "id": 0
+                        },
+                        "is_global_dining_access": false,
+                        "floorplan": {
+                            "id": 4294
+                        },
+                        "id": null,
+                        "market": {
+                            "date": {
+                                "off": 1682790900,
+                                "on": 1681650000
+                            }
+                        },
+                        "meta": {
+                            "size": {
+                                "assumed": 2
+                            },
+                            "type": {
+                                "id": 1
+                            }
+                        },
+                        "lock": null,
+                        "pacing": {
+                            "beyond": false
+                        },
+                        "score": {
+                            "total": 100.0
+                        },
+                        "shift": {
+                            "id": 623211,
+                            "service": {
+                                "type": {
+                                    "id": 1
+                                }
+                            },
+                            "day": "2023-04-29"
+                        },
+                        "size": {
+                            "max": 2,
+                            "min": 2
+                        },
+                        "status": {
+                            "id": 1
+                        },
+                        "table": {
+                            "id": [
+                                115439
+                            ]
+                        },
+                        "template": {
+                            "id": 1860812
+                        },
+                        "time": {
+                            "turn": {
+                                "actual": 3600,
+                                "estimated": 3600
+                            }
+                        },
+                        "quantity": 3,
+                        "display_config": {
+                            "color": {
+                                "background": "2651A6",
+                                "font": "FFFFFF"
+                            }
+                        },
+                        "reservation_config": {
+                            "badge": null
+                        },
+                        "gdc_perk": null,
+                        "payment": {
+                            "is_paid": true,
+                            "cancellation_fee": null,
+                            "deposit_fee": 2.29,
+                            "service_charge": "0%",
+                            "venue_share": 100,
+                            "payment_structure": 4,
+                            "secs_cancel_cut_off": 0,
+                            "time_cancel_cut_off": "09:00:00",
+                            "secs_change_cut_off": 0,
+                            "time_change_cut_off": "09:00:00",
+                            "service_charge_options": []
+                        }
+                    },
+                    {
+                        "availability": {
+                            "id": 3
+                        },
+                        "config": {
+                            "id": 245123,
+                            "type": "Dining",
+                            "token": "rgs://resy/5769/1860812/1/2023-04-29/2023-04-29/14:15:00/2/Dining"
+                        },
+                        "date": {
+                            "end": "2023-04-29 15:15:00",
+                            "start": "2023-04-29 14:15:00"
+                        },
+                        "exclusive": {
+                            "id": 0
+                        },
+                        "is_global_dining_access": false,
+                        "floorplan": {
+                            "id": 4294
+                        },
+                        "id": null,
+                        "market": {
+                            "date": {
+                                "off": 1682791800,
+                                "on": 1681650000
+                            }
+                        },
+                        "meta": {
+                            "size": {
+                                "assumed": 2
+                            },
+                            "type": {
+                                "id": 1
+                            }
+                        },
+                        "lock": null,
+                        "pacing": {
+                            "beyond": false
+                        },
+                        "score": {
+                            "total": 100.0
+                        },
+                        "shift": {
+                            "id": 623211,
+                            "service": {
+                                "type": {
+                                    "id": 1
+                                }
+                            },
+                            "day": "2023-04-29"
+                        },
+                        "size": {
+                            "max": 2,
+                            "min": 2
+                        },
+                        "status": {
+                            "id": 1
+                        },
+                        "table": {
+                            "id": [
+                                183768
+                            ]
+                        },
+                        "template": {
+                            "id": 1860812
+                        },
+                        "time": {
+                            "turn": {
+                                "actual": 3600,
+                                "estimated": 3600
+                            }
+                        },
+                        "quantity": 4,
+                        "display_config": {
+                            "color": {
+                                "background": "2651A6",
+                                "font": "FFFFFF"
+                            }
+                        },
+                        "reservation_config": {
+                            "badge": null
+                        },
+                        "gdc_perk": null,
+                        "payment": {
+                            "is_paid": true,
+                            "cancellation_fee": null,
+                            "deposit_fee": 2.29,
+                            "service_charge": "0%",
+                            "venue_share": 100,
+                            "payment_structure": 4,
+                            "secs_cancel_cut_off": 0,
+                            "time_cancel_cut_off": "09:00:00",
+                            "secs_change_cut_off": 0,
+                            "time_change_cut_off": "09:00:00",
+                            "service_charge_options": []
+                        }
+                    },
+                    {
+                        "availability": {
+                            "id": 3
+                        },
+                        "config": {
+                            "id": 155073,
+                            "type": "Dining",
+                            "token": "rgs://resy/5769/1860812/1/2023-04-29/2023-04-29/14:30:00/2/Dining"
+                        },
+                        "date": {
+                            "end": "2023-04-29 15:30:00",
+                            "start": "2023-04-29 14:30:00"
+                        },
+                        "exclusive": {
+                            "id": 0
+                        },
+                        "is_global_dining_access": false,
+                        "floorplan": {
+                            "id": 4294
+                        },
+                        "id": null,
+                        "market": {
+                            "date": {
+                                "off": 1682792700,
+                                "on": 1681650000
+                            }
+                        },
+                        "meta": {
+                            "size": {
+                                "assumed": 2
+                            },
+                            "type": {
+                                "id": 1
+                            }
+                        },
+                        "lock": null,
+                        "pacing": {
+                            "beyond": false
+                        },
+                        "score": {
+                            "total": 98.5
+                        },
+                        "shift": {
+                            "id": 623211,
+                            "service": {
+                                "type": {
+                                    "id": 1
+                                }
+                            },
+                            "day": "2023-04-29"
+                        },
+                        "size": {
+                            "max": 2,
+                            "min": 1
+                        },
+                        "status": {
+                            "id": 1
+                        },
+                        "table": {
+                            "id": [
+                                115427
+                            ]
+                        },
+                        "template": {
+                            "id": 1860812
+                        },
+                        "time": {
+                            "turn": {
+                                "actual": 3600,
+                                "estimated": 3600
+                            }
+                        },
+                        "quantity": 3,
+                        "display_config": {
+                            "color": {
+                                "background": "2651A6",
+                                "font": "FFFFFF"
+                            }
+                        },
+                        "reservation_config": {
+                            "badge": null
+                        },
+                        "gdc_perk": null,
+                        "payment": {
+                            "is_paid": true,
+                            "cancellation_fee": null,
+                            "deposit_fee": 2.29,
+                            "service_charge": "0%",
+                            "venue_share": 100,
+                            "payment_structure": 4,
+                            "secs_cancel_cut_off": 0,
+                            "time_cancel_cut_off": "09:00:00",
+                            "secs_change_cut_off": 0,
+                            "time_change_cut_off": "09:00:00",
+                            "service_charge_options": []
+                        }
+                    },
+                    {
+                        "availability": {
+                            "id": 3
+                        },
+                        "config": {
+                            "id": 155081,
+                            "type": "Dining",
+                            "token": "rgs://resy/5769/1860812/1/2023-04-29/2023-04-29/14:45:00/2/Dining"
+                        },
+                        "date": {
+                            "end": "2023-04-29 15:45:00",
+                            "start": "2023-04-29 14:45:00"
+                        },
+                        "exclusive": {
+                            "id": 0
+                        },
+                        "is_global_dining_access": false,
+                        "floorplan": {
+                            "id": 4294
+                        },
+                        "id": null,
+                        "market": {
+                            "date": {
+                                "off": 1682793600,
+                                "on": 1681650000
+                            }
+                        },
+                        "meta": {
+                            "size": {
+                                "assumed": 2
+                            },
+                            "type": {
+                                "id": 1
+                            }
+                        },
+                        "lock": null,
+                        "pacing": {
+                            "beyond": false
+                        },
+                        "score": {
+                            "total": 100.0
+                        },
+                        "shift": {
+                            "id": 623211,
+                            "service": {
+                                "type": {
+                                    "id": 1
+                                }
+                            },
+                            "day": "2023-04-29"
+                        },
+                        "size": {
+                            "max": 2,
+                            "min": 1
+                        },
+                        "status": {
+                            "id": 1
+                        },
+                        "table": {
+                            "id": [
+                                115435
+                            ]
+                        },
+                        "template": {
+                            "id": 1860812
+                        },
+                        "time": {
+                            "turn": {
+                                "actual": 3600,
+                                "estimated": 3600
+                            }
+                        },
+                        "quantity": 4,
+                        "display_config": {
+                            "color": {
+                                "background": "2651A6",
+                                "font": "FFFFFF"
+                            }
+                        },
+                        "reservation_config": {
+                            "badge": null
+                        },
+                        "gdc_perk": null,
+                        "payment": {
+                            "is_paid": true,
+                            "cancellation_fee": null,
+                            "deposit_fee": 2.29,
+                            "service_charge": "0%",
+                            "venue_share": 100,
+                            "payment_structure": 4,
+                            "secs_cancel_cut_off": 0,
+                            "time_cancel_cut_off": "09:00:00",
+                            "secs_change_cut_off": 0,
+                            "time_change_cut_off": "09:00:00",
+                            "service_charge_options": []
+                        }
+                    },
+                    {
+                        "availability": {
+                            "id": 3
+                        },
+                        "config": {
+                            "id": 245122,
+                            "type": "Dining",
+                            "token": "rgs://resy/5769/1860812/1/2023-04-29/2023-04-29/15:00:00/2/Dining"
+                        },
+                        "date": {
+                            "end": "2023-04-29 16:00:00",
+                            "start": "2023-04-29 15:00:00"
+                        },
+                        "exclusive": {
+                            "id": 0
+                        },
+                        "is_global_dining_access": false,
+                        "floorplan": {
+                            "id": 4294
+                        },
+                        "id": null,
+                        "market": {
+                            "date": {
+                                "off": 1682794500,
+                                "on": 1681650000
+                            }
+                        },
+                        "meta": {
+                            "size": {
+                                "assumed": 2
+                            },
+                            "type": {
+                                "id": 1
+                            }
+                        },
+                        "lock": null,
+                        "pacing": {
+                            "beyond": false
+                        },
+                        "score": {
+                            "total": 98.5
+                        },
+                        "shift": {
+                            "id": 623211,
+                            "service": {
+                                "type": {
+                                    "id": 1
+                                }
+                            },
+                            "day": "2023-04-29"
+                        },
+                        "size": {
+                            "max": 2,
+                            "min": 1
+                        },
+                        "status": {
+                            "id": 1
+                        },
+                        "table": {
+                            "id": [
+                                183767
+                            ]
+                        },
+                        "template": {
+                            "id": 1860812
+                        },
+                        "time": {
+                            "turn": {
+                                "actual": 3600,
+                                "estimated": 3600
+                            }
+                        },
+                        "quantity": 4,
+                        "display_config": {
+                            "color": {
+                                "background": "2651A6",
+                                "font": "FFFFFF"
+                            }
+                        },
+                        "reservation_config": {
+                            "badge": null
+                        },
+                        "gdc_perk": null,
+                        "payment": {
+                            "is_paid": true,
+                            "cancellation_fee": null,
+                            "deposit_fee": 2.29,
+                            "service_charge": "0%",
+                            "venue_share": 100,
+                            "payment_structure": 4,
+                            "secs_cancel_cut_off": 0,
+                            "time_cancel_cut_off": "09:00:00",
+                            "secs_change_cut_off": 0,
+                            "time_change_cut_off": "09:00:00",
+                            "service_charge_options": []
+                        }
+                    },
+                    {
+                        "availability": {
+                            "id": 3
+                        },
+                        "config": {
+                            "id": 245122,
+                            "type": "Dining",
+                            "token": "rgs://resy/5769/2071019/2/2023-04-29/2023-04-29/17:15:00/2/Dining"
+                        },
+                        "date": {
+                            "end": "2023-04-29 19:15:00",
+                            "start": "2023-04-29 17:15:00"
+                        },
+                        "exclusive": {
+                            "id": 0
+                        },
+                        "is_global_dining_access": false,
+                        "floorplan": {
+                            "id": 4294
+                        },
+                        "id": null,
+                        "market": {
+                            "date": {
+                                "off": 1682802600,
+                                "on": 1681650000
+                            }
+                        },
+                        "meta": {
+                            "size": {
+                                "assumed": 2
+                            },
+                            "type": {
+                                "id": 1
+                            }
+                        },
+                        "lock": null,
+                        "pacing": {
+                            "beyond": false
+                        },
+                        "score": {
+                            "total": 99.0
+                        },
+                        "shift": {
+                            "id": 716195,
+                            "service": {
+                                "type": {
+                                    "id": 2
+                                }
+                            },
+                            "day": "2023-04-29"
+                        },
+                        "size": {
+                            "max": 2,
+                            "min": 1
+                        },
+                        "status": {
+                            "id": 1
+                        },
+                        "table": {
+                            "id": [
+                                183767
+                            ]
+                        },
+                        "template": {
+                            "id": 2071019
+                        },
+                        "time": {
+                            "turn": {
+                                "actual": 7200,
+                                "estimated": 7200
+                            }
+                        },
+                        "quantity": 1,
+                        "display_config": {
+                            "color": {
+                                "background": "2651A6",
+                                "font": "FFFFFF"
+                            }
+                        },
+                        "reservation_config": {
+                            "badge": null
+                        },
+                        "gdc_perk": null,
+                        "payment": {
+                            "is_paid": true,
+                            "cancellation_fee": null,
+                            "deposit_fee": 2.29,
+                            "service_charge": "0%",
+                            "venue_share": 100,
+                            "payment_structure": 4,
+                            "secs_cancel_cut_off": 86400,
+                            "time_cancel_cut_off": null,
+                            "secs_change_cut_off": 86400,
+                            "time_change_cut_off": null,
+                            "service_charge_options": []
+                        }
+                    },
+                    {
+                        "availability": {
+                            "id": 3
+                        },
+                        "config": {
+                            "id": 155074,
+                            "type": "Dining",
+                            "token": "rgs://resy/5769/2071019/2/2023-04-29/2023-04-29/21:15:00/2/Dining"
+                        },
+                        "date": {
+                            "end": "2023-04-29 23:15:00",
+                            "start": "2023-04-29 21:15:00"
+                        },
+                        "exclusive": {
+                            "id": 0
+                        },
+                        "is_global_dining_access": false,
+                        "floorplan": {
+                            "id": 4294
+                        },
+                        "id": null,
+                        "market": {
+                            "date": {
+                                "off": 1682817000,
+                                "on": 1681650000
+                            }
+                        },
+                        "meta": {
+                            "size": {
+                                "assumed": 2
+                            },
+                            "type": {
+                                "id": 1
+                            }
+                        },
+                        "lock": null,
+                        "pacing": {
+                            "beyond": false
+                        },
+                        "score": {
+                            "total": 99.0
+                        },
+                        "shift": {
+                            "id": 716195,
+                            "service": {
+                                "type": {
+                                    "id": 2
+                                }
+                            },
+                            "day": "2023-04-29"
+                        },
+                        "size": {
+                            "max": 2,
+                            "min": 1
+                        },
+                        "status": {
+                            "id": 1
+                        },
+                        "table": {
+                            "id": [
+                                115428
+                            ]
+                        },
+                        "template": {
+                            "id": 2071019
+                        },
+                        "time": {
+                            "turn": {
+                                "actual": 7200,
+                                "estimated": 7200
+                            }
+                        },
+                        "quantity": 1,
+                        "display_config": {
+                            "color": {
+                                "background": "2651A6",
+                                "font": "FFFFFF"
+                            }
+                        },
+                        "reservation_config": {
+                            "badge": null
+                        },
+                        "gdc_perk": null,
+                        "payment": {
+                            "is_paid": true,
+                            "cancellation_fee": null,
+                            "deposit_fee": 2.29,
+                            "service_charge": "0%",
+                            "venue_share": 100,
+                            "payment_structure": 4,
+                            "secs_cancel_cut_off": 86400,
+                            "time_cancel_cut_off": null,
+                            "secs_change_cut_off": 86400,
+                            "time_change_cut_off": null,
+                            "service_charge_options": []
+                        }
+                    },
+                    {
+                        "availability": {
+                            "id": 3
+                        },
+                        "config": {
+                            "id": 155091,
+                            "type": "Dining",
+                            "token": "rgs://resy/5769/2071019/2/2023-04-29/2023-04-29/21:30:00/2/Dining"
+                        },
+                        "date": {
+                            "end": "2023-04-29 23:30:00",
+                            "start": "2023-04-29 21:30:00"
+                        },
+                        "exclusive": {
+                            "id": 0
+                        },
+                        "is_global_dining_access": false,
+                        "floorplan": {
+                            "id": 4294
+                        },
+                        "id": null,
+                        "market": {
+                            "date": {
+                                "off": 1682817900,
+                                "on": 1681650000
+                            }
+                        },
+                        "meta": {
+                            "size": {
+                                "assumed": 2
+                            },
+                            "type": {
+                                "id": 1
+                            }
+                        },
+                        "lock": null,
+                        "pacing": {
+                            "beyond": false
+                        },
+                        "score": {
+                            "total": 100.0
+                        },
+                        "shift": {
+                            "id": 716195,
+                            "service": {
+                                "type": {
+                                    "id": 2
+                                }
+                            },
+                            "day": "2023-04-29"
+                        },
+                        "size": {
+                            "max": 2,
+                            "min": 1
+                        },
+                        "status": {
+                            "id": 1
+                        },
+                        "table": {
+                            "id": [
+                                115445
+                            ]
+                        },
+                        "template": {
+                            "id": 2071019
+                        },
+                        "time": {
+                            "turn": {
+                                "actual": 7200,
+                                "estimated": 7200
+                            }
+                        },
+                        "quantity": 2,
+                        "display_config": {
+                            "color": {
+                                "background": "2651A6",
+                                "font": "FFFFFF"
+                            }
+                        },
+                        "reservation_config": {
+                            "badge": null
+                        },
+                        "gdc_perk": null,
+                        "payment": {
+                            "is_paid": true,
+                            "cancellation_fee": null,
+                            "deposit_fee": 2.29,
+                            "service_charge": "0%",
+                            "venue_share": 100,
+                            "payment_structure": 4,
+                            "secs_cancel_cut_off": 86400,
+                            "time_cancel_cut_off": null,
+                            "secs_change_cut_off": 86400,
+                            "time_change_cut_off": null,
+                            "service_charge_options": []
+                        }
+                    },
+                    {
+                        "availability": {
+                            "id": 3
+                        },
+                        "config": {
+                            "id": 245121,
+                            "type": "Dining",
+                            "token": "rgs://resy/5769/2071019/2/2023-04-29/2023-04-29/21:45:00/2/Dining"
+                        },
+                        "date": {
+                            "end": "2023-04-29 23:45:00",
+                            "start": "2023-04-29 21:45:00"
+                        },
+                        "exclusive": {
+                            "id": 0
+                        },
+                        "is_global_dining_access": false,
+                        "floorplan": {
+                            "id": 4294
+                        },
+                        "id": null,
+                        "market": {
+                            "date": {
+                                "off": 1682818800,
+                                "on": 1681650000
+                            }
+                        },
+                        "meta": {
+                            "size": {
+                                "assumed": 2
+                            },
+                            "type": {
+                                "id": 1
+                            }
+                        },
+                        "lock": null,
+                        "pacing": {
+                            "beyond": false
+                        },
+                        "score": {
+                            "total": 99.0
+                        },
+                        "shift": {
+                            "id": 716195,
+                            "service": {
+                                "type": {
+                                    "id": 2
+                                }
+                            },
+                            "day": "2023-04-29"
+                        },
+                        "size": {
+                            "max": 2,
+                            "min": 1
+                        },
+                        "status": {
+                            "id": 1
+                        },
+                        "table": {
+                            "id": [
+                                183766
+                            ]
+                        },
+                        "template": {
+                            "id": 2071019
+                        },
+                        "time": {
+                            "turn": {
+                                "actual": 7200,
+                                "estimated": 7200
+                            }
+                        },
+                        "quantity": 1,
+                        "display_config": {
+                            "color": {
+                                "background": "2651A6",
+                                "font": "FFFFFF"
+                            }
+                        },
+                        "reservation_config": {
+                            "badge": null
+                        },
+                        "gdc_perk": null,
+                        "payment": {
+                            "is_paid": true,
+                            "cancellation_fee": null,
+                            "deposit_fee": 2.29,
+                            "service_charge": "0%",
+                            "venue_share": 100,
+                            "payment_structure": 4,
+                            "secs_cancel_cut_off": 86400,
+                            "time_cancel_cut_off": null,
+                            "secs_change_cut_off": 86400,
+                            "time_change_cut_off": null,
+                            "service_charge_options": []
+                        }
+                    },
+                    {
+                        "availability": {
+                            "id": 3
+                        },
+                        "config": {
+                            "id": 245110,
+                            "type": "Dining",
+                            "token": "rgs://resy/5769/2071019/2/2023-04-29/2023-04-29/22:00:00/2/Dining"
+                        },
+                        "date": {
+                            "end": "2023-04-30 00:00:00",
+                            "start": "2023-04-29 22:00:00"
+                        },
+                        "exclusive": {
+                            "id": 0
+                        },
+                        "is_global_dining_access": false,
+                        "floorplan": {
+                            "id": 4294
+                        },
+                        "id": null,
+                        "market": {
+                            "date": {
+                                "off": 1682819700,
+                                "on": 1681650000
+                            }
+                        },
+                        "meta": {
+                            "size": {
+                                "assumed": 2
+                            },
+                            "type": {
+                                "id": 1
+                            }
+                        },
+                        "lock": null,
+                        "pacing": {
+                            "beyond": false
+                        },
+                        "score": {
+                            "total": 99.0
+                        },
+                        "shift": {
+                            "id": 716195,
+                            "service": {
+                                "type": {
+                                    "id": 2
+                                }
+                            },
+                            "day": "2023-04-29"
+                        },
+                        "size": {
+                            "max": 2,
+                            "min": 1
+                        },
+                        "status": {
+                            "id": 1
+                        },
+                        "table": {
+                            "id": [
+                                183762
+                            ]
+                        },
+                        "template": {
+                            "id": 2071019
+                        },
+                        "time": {
+                            "turn": {
+                                "actual": 7200,
+                                "estimated": 7200
+                            }
+                        },
+                        "quantity": 2,
+                        "display_config": {
+                            "color": {
+                                "background": "2651A6",
+                                "font": "FFFFFF"
+                            }
+                        },
+                        "reservation_config": {
+                            "badge": null
+                        },
+                        "gdc_perk": null,
+                        "payment": {
+                            "is_paid": true,
+                            "cancellation_fee": null,
+                            "deposit_fee": 2.29,
+                            "service_charge": "0%",
+                            "venue_share": 100,
+                            "payment_structure": 4,
+                            "secs_cancel_cut_off": 86400,
+                            "time_cancel_cut_off": null,
+                            "secs_change_cut_off": 86400,
+                            "time_change_cut_off": null,
+                            "service_charge_options": []
+                        }
+                    },
+                    {
+                        "availability": {
+                            "id": 3
+                        },
+                        "config": {
+                            "id": 245112,
+                            "type": "Dining",
+                            "token": "rgs://resy/5769/2071019/2/2023-04-29/2023-04-29/22:15:00/2/Dining"
+                        },
+                        "date": {
+                            "end": "2023-04-30 00:15:00",
+                            "start": "2023-04-29 22:15:00"
+                        },
+                        "exclusive": {
+                            "id": 0
+                        },
+                        "is_global_dining_access": false,
+                        "floorplan": {
+                            "id": 4294
+                        },
+                        "id": null,
+                        "market": {
+                            "date": {
+                                "off": 1682820600,
+                                "on": 1681650000
+                            }
+                        },
+                        "meta": {
+                            "size": {
+                                "assumed": 2
+                            },
+                            "type": {
+                                "id": 1
+                            }
+                        },
+                        "lock": null,
+                        "pacing": {
+                            "beyond": false
+                        },
+                        "score": {
+                            "total": 100.0
+                        },
+                        "shift": {
+                            "id": 716195,
+                            "service": {
+                                "type": {
+                                    "id": 2
+                                }
+                            },
+                            "day": "2023-04-29"
+                        },
+                        "size": {
+                            "max": 2,
+                            "min": 2
+                        },
+                        "status": {
+                            "id": 1
+                        },
+                        "table": {
+                            "id": [
+                                183764
+                            ]
+                        },
+                        "template": {
+                            "id": 2071019
+                        },
+                        "time": {
+                            "turn": {
+                                "actual": 7200,
+                                "estimated": 7200
+                            }
+                        },
+                        "quantity": 2,
+                        "display_config": {
+                            "color": {
+                                "background": "2651A6",
+                                "font": "FFFFFF"
+                            }
+                        },
+                        "reservation_config": {
+                            "badge": null
+                        },
+                        "gdc_perk": null,
+                        "payment": {
+                            "is_paid": true,
+                            "cancellation_fee": null,
+                            "deposit_fee": 2.29,
+                            "service_charge": "0%",
+                            "venue_share": 100,
+                            "payment_structure": 4,
+                            "secs_cancel_cut_off": 86400,
+                            "time_cancel_cut_off": null,
+                            "secs_change_cut_off": 86400,
+                            "time_change_cut_off": null,
+                            "service_charge_options": []
+                        }
+                    },
+                    {
+                        "availability": {
+                            "id": 3
+                        },
+                        "config": {
+                            "id": 245111,
+                            "type": "Dining",
+                            "token": "rgs://resy/5769/2071019/2/2023-04-29/2023-04-29/22:45:00/2/Dining"
+                        },
+                        "date": {
+                            "end": "2023-04-30 00:45:00",
+                            "start": "2023-04-29 22:45:00"
+                        },
+                        "exclusive": {
+                            "id": 0
+                        },
+                        "is_global_dining_access": false,
+                        "floorplan": {
+                            "id": 4294
+                        },
+                        "id": null,
+                        "market": {
+                            "date": {
+                                "off": 1682822400,
+                                "on": 1681650000
+                            }
+                        },
+                        "meta": {
+                            "size": {
+                                "assumed": 2
+                            },
+                            "type": {
+                                "id": 1
+                            }
+                        },
+                        "lock": null,
+                        "pacing": {
+                            "beyond": false
+                        },
+                        "score": {
+                            "total": 100.0
+                        },
+                        "shift": {
+                            "id": 716195,
+                            "service": {
+                                "type": {
+                                    "id": 2
+                                }
+                            },
+                            "day": "2023-04-29"
+                        },
+                        "size": {
+                            "max": 2,
+                            "min": 1
+                        },
+                        "status": {
+                            "id": 1
+                        },
+                        "table": {
+                            "id": [
+                                183763
+                            ]
+                        },
+                        "template": {
+                            "id": 2071019
+                        },
+                        "time": {
+                            "turn": {
+                                "actual": 7200,
+                                "estimated": 7200
+                            }
+                        },
+                        "quantity": 3,
+                        "display_config": {
+                            "color": {
+                                "background": "2651A6",
+                                "font": "FFFFFF"
+                            }
+                        },
+                        "reservation_config": {
+                            "badge": null
+                        },
+                        "gdc_perk": null,
+                        "payment": {
+                            "is_paid": true,
+                            "cancellation_fee": null,
+                            "deposit_fee": 2.29,
+                            "service_charge": "0%",
+                            "venue_share": 100,
+                            "payment_structure": 4,
+                            "secs_cancel_cut_off": 86400,
+                            "time_cancel_cut_off": null,
+                            "secs_change_cut_off": 86400,
+                            "time_change_cut_off": null,
+                            "service_charge_options": []
+                        }
+                    },
+                    {
+                        "availability": {
+                            "id": 3
+                        },
+                        "config": {
+                            "id": 155081,
+                            "type": "Dining",
+                            "token": "rgs://resy/5769/2071019/2/2023-04-29/2023-04-29/23:00:00/2/Dining"
+                        },
+                        "date": {
+                            "end": "2023-04-30 01:00:00",
+                            "start": "2023-04-29 23:00:00"
+                        },
+                        "exclusive": {
+                            "id": 0
+                        },
+                        "is_global_dining_access": false,
+                        "floorplan": {
+                            "id": 4294
+                        },
+                        "id": null,
+                        "market": {
+                            "date": {
+                                "off": 1682823300,
+                                "on": 1681650000
+                            }
+                        },
+                        "meta": {
+                            "size": {
+                                "assumed": 2
+                            },
+                            "type": {
+                                "id": 1
+                            }
+                        },
+                        "lock": null,
+                        "pacing": {
+                            "beyond": false
+                        },
+                        "score": {
+                            "total": 100.0
+                        },
+                        "shift": {
+                            "id": 716195,
+                            "service": {
+                                "type": {
+                                    "id": 2
+                                }
+                            },
+                            "day": "2023-04-29"
+                        },
+                        "size": {
+                            "max": 2,
+                            "min": 1
+                        },
+                        "status": {
+                            "id": 1
+                        },
+                        "table": {
+                            "id": [
+                                115435
+                            ]
+                        },
+                        "template": {
+                            "id": 2071019
+                        },
+                        "time": {
+                            "turn": {
+                                "actual": 7200,
+                                "estimated": 7200
+                            }
+                        },
+                        "quantity": 5,
+                        "display_config": {
+                            "color": {
+                                "background": "2651A6",
+                                "font": "FFFFFF"
+                            }
+                        },
+                        "reservation_config": {
+                            "badge": null
+                        },
+                        "gdc_perk": null,
+                        "payment": {
+                            "is_paid": true,
+                            "cancellation_fee": null,
+                            "deposit_fee": 2.29,
+                            "service_charge": "0%",
+                            "venue_share": 100,
+                            "payment_structure": 4,
+                            "secs_cancel_cut_off": 86400,
+                            "time_cancel_cut_off": null,
+                            "secs_change_cut_off": 86400,
+                            "time_change_cut_off": null,
+                            "service_charge_options": []
+                        }
+                    }
+                ],
+                "notifies": [],
+                "pickups": {
+                    "slots": [],
+                    "service_types": {}
+                }
+            }
+        ],
+        "meta": {
+            "offset": 1,
+            "limit": null
+        }
+    },
+    "guest_token": "FbNM1bRUqtMBeXpe1Kc0imnbruyJVa7yA|1N2KrRFgESJ8XYaOLCv_DCi7vfEowqmDYQClZIhc2gua6C5LilPQ|HLZ9nJllM3O0tvhLwEPI=-fb43dec95cb0f42bcdd1de9dd3ac5823e7964b542472898b2a0782db"
+}
