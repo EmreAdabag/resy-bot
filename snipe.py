@@ -5,13 +5,13 @@ import sys
 import traceback
 
 
-def snipe(venue, range_start, range_end, party_size):
+def snipe(venue, range_start, range_end, weekdays, party_size):
     print("looking for reservations at {}".format(venue_dict[venue]))
-    open_dates = check_availability(venue, party_size)
+    open_dates = check_availability(venue, party_size, weekdays)
 
-    for ind, day in enumerate(open_dates):
+    for day in open_dates:
         slots = get_slots(day, party_size, venue)
-        print("day: [ {} ], open reservations: [ {} ]".format(ind, len(slots)))
+        print("{} open reservations: [ {} ]".format(day, len(slots)))
 
         for slot in slots:
             if slot_is_ok(range_start, range_end, slot["time"]):
@@ -36,12 +36,13 @@ if __name__ == '__main__':
         party_size = sys.argv[2]
         range_start = "18:00:00"
         range_end = "20:30:00"
+        weekdays = [4,5]
     except:
         print("args!")
         exit()
     
     try:
-        snipe(venue, range_start, range_end, party_size)
+        snipe(venue, range_start, range_end, weekdays, party_size)
     except Exception as e:
         traceback.print_exc()
         print(e)

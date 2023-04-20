@@ -3,6 +3,7 @@ from venues import venue_list, venue_dict
 from datetime import datetime
 import random
 import time
+import sys
 import traceback
 
 def log_entry(logstr):
@@ -12,10 +13,9 @@ def log_entry(logstr):
     with open("output.log", "a") as f:
         f.write(log_entry)
 
-def thething(venue, range_start, range_end, party_size):
+def thething(venue, range_start, range_end, weekdays, party_size):
 
-    # print("looking for reservations at {}".format(venue_dict[venue]))
-    open_dates = check_availability(venue, party_size)
+    open_dates = check_availability(venue, party_size, weekdays)
 
     for day in open_dates:
         slots = get_slots(day, party_size, venue)
@@ -42,8 +42,8 @@ def main():
 
     party_size = 2
     range_start = "18:00:00"
-    range_end = "20:30:00"
-
+    range_end = "21:00:00"
+    weekdays = [4,5]
 
     print("starting search for party size: [ {} ] between [ {} ] and [ {} ]".format(party_size, range_start, range_end))
 
@@ -58,7 +58,7 @@ def main():
                     check_venue[ind] = True
                     continue
 
-                day_found, booked = thething(venue, range_start, range_end, party_size)
+                day_found, booked = thething(venue, range_start, range_end, weekdays, party_size)
                 
                 if day_found:
                     check_venue[ind] = False        # don't immediately recheck a venue with an open day
@@ -69,6 +69,8 @@ def main():
             time.sleep(random.uniform(0, 60))
             if iter%5==0:
                 print(f"status: running iter [ {iter} ]")
+    except KeyboardInterrupt:
+        sys.exit(0)
 
     except Exception as e:
         traceback.print_tb()

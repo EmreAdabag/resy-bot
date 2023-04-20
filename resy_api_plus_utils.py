@@ -5,10 +5,12 @@ import traceback
 from urls import *
 
 
-def check_availability(venue, party_size):
+def check_availability(venue, party_size, weekdays):
+    date_format = '%Y-%m-%d'
+    nores = ["sold-out", "closed"]
     today = datetime.today()
     ytd = today + timedelta(days=365)
-    url = availability_url_unformatted.format(venue, party_size, today.strftime('%Y-%m-%d'), ytd.strftime('%Y-%m-%d'))
+    url = availability_url_unformatted.format(venue, party_size, today.strftime(date_format), ytd.strftime(date_format))
     
     available_days = []
 
@@ -19,8 +21,11 @@ def check_availability(venue, party_size):
         schedule = r_json['scheduled']
 
         for schedule_day in schedule:
-            if schedule_day['inventory']['reservation'] != "sold-out":
-                available_days.append(schedule_day['date'])
+            date = schedule_day['date']
+            valid_day = datetime.strptime(date, date_format).weekday() in weekdays
+
+            if valid_day and schedule_day['inventory']['reservation'] not in nores:
+                available_days.append(date)
         
         return available_days
     
@@ -74,11 +79,11 @@ def book_slot(party_size, slot) -> bool:
 
 
 
-def slot_is_ok(start, end, slot):
+def slot_is_ok(start, end, time):
     time_format = '%H:%M:%S'
     start_time = datetime.strptime(start, time_format).time()
     end_time = datetime.strptime(end, time_format).time()
-    slot_time = datetime.strptime(slot, time_format).time()
+    slot_time = datetime.strptime(time, time_format).time()
 
     return start_time <= slot_time <= end_time
 

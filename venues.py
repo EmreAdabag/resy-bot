@@ -1,7 +1,8 @@
-venue_list = [834, 6194, 1505, 64593, 2567, 58848, 418, 5771, 42534, 443]
+# these are the venues that will be searched by do_the_thing
+venue_list = [834, 6194, 1505]
 
 venue_dict = {
-            834: "Charles Prime Rib",
+            834: "4 Charles Prime Rib",
             6194: "Carbone",
             1505: "Don Angie",
             64593: "Torrisi",
@@ -12,7 +13,8 @@ venue_dict = {
             42534: "Double Chicken Please",
             48994: "Dhamaka",
             443: "Sodi",
-            5769: "Au Cheval (JUST FOR TESTING)"}
+            65452: "TATIANA, By Kwame Onwuachi",
+            5769: "Au Cheval (TEST)"}
 
 reverse_venue_dict = {
             "Charles Prime Rib": "834",
@@ -26,4 +28,5 @@ reverse_venue_dict = {
             "Double Chicken Please": "42534",
             "Dhamaka": "48994",
             "Sodi": "443",
+            "TATIANA, By Kwame Onwuachi": "65452",
             "Au Cheval": "5769"}
