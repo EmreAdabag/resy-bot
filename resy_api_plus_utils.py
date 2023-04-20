@@ -25,10 +25,10 @@ def check_availability(venue, party_size):
         return available_days
     
     except:
-        print("error fetching days, final response:")
+        print("error fetching dates, final response:")
         print(r.text)
         traceback.print_exc()
-        return None
+        exit()
 
 
 

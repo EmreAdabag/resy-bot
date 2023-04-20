@@ -1,4 +1,4 @@
-venue_list = [834, 6194, 1505, 64593, 2567, 58848, 418, 5771, 42534]
+venue_list = [834, 6194, 1505, 64593, 2567, 58848, 418, 5771, 42534, 443]
 
 venue_dict = {
             834: "Charles Prime Rib",
@@ -11,6 +11,7 @@ venue_dict = {
             5771: "Rezdora",
             42534: "Double Chicken Please",
             48994: "Dhamaka",
+            443: "Sodi",
             5769: "Au Cheval (JUST FOR TESTING)"}
 
 reverse_venue_dict = {
@@ -24,7 +25,5 @@ reverse_venue_dict = {
             "Rezdora": "5771",
             "Double Chicken Please": "42534",
             "Dhamaka": "48994",
+            "Sodi": "443",
             "Au Cheval": "5769"}
-
-
-# 5769 Au Cheval

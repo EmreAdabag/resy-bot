@@ -26,13 +26,13 @@ def thething(venue, range_start, range_end, party_size):
                 booked = book_slot(party_size, slot)
                 if booked:
                     log_entry("booked!")
-                    return 1
+                    return True, True
                 else:
                     log_entry("booking failed")
             # else:
             #     log_entry("ineligible reservation found: [ {} ] on [ {} ] at [ {} ]".format(slot["time"], slot["date"], venue_dict[venue]))
     
-    return 0
+    return len(open_dates) > 0, False
             
 
 
@@ -47,16 +47,27 @@ def main():
 
     print("starting search for party size: [ {} ] between [ {} ] and [ {} ]".format(party_size, range_start, range_end))
 
+    check_venue = [True for i in range(len(venue_list))]
+
     try:
         for iter in range(1500):
 
-            for venue in venue_list:
-                booked = thething(venue, range_start, range_end, party_size)
+            for ind, venue in enumerate(venue_list):
+
+                if check_venue[ind] == False:
+                    check_venue[ind] = True
+                    continue
+
+                day_found, booked = thething(venue, range_start, range_end, party_size)
+                
+                if day_found:
+                    check_venue[ind] = False        # don't immediately recheck a venue with an open day
+
                 if booked:
                     return
             
             time.sleep(random.uniform(0, 60))
-            if iter%15==0:
+            if iter%5==0:
                 print(f"status: running iter [ {iter} ]")
 
     except Exception as e:
