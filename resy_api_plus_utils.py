@@ -1,6 +1,7 @@
 import requests
 import json
 from datetime import datetime, timedelta
+from keys import payment_id
 import traceback
 from urls import *
 
@@ -39,14 +40,14 @@ def check_availability(venue, party_size, weekdays):
 
 def parse_slots_json(response_json):
     open_times = []
-    slot_list = response_json["results"]["venues"][0]["slots"]
-    for slot in slot_list:
-        start = slot["date"]["start"].split()
-        config_id = slot["config"]["token"]
-        open_times.append({"time": start[1], "date": start[0], "config":config_id})
-
-    return open_times
-
+    try:
+        slot_list = response_json["results"]["venues"][0]["slots"]
+        for slot in slot_list:
+            start = slot["date"]["start"].split()
+            config_id = slot["config"]["token"]
+            open_times.append({"time": start[1], "date": start[0], "config":config_id})
+    finally:
+        return open_times
 
 def get_slots(date, party_size, venue):
     query_url = query_url_unformatted.format(date, party_size, venue)
@@ -64,7 +65,7 @@ def book_slot(party_size, slot) -> bool:
         resp.raise_for_status()
 
         book_token = json.loads(resp.text)["book_token"]["value"]
-        booking_payload = "book_token=" + book_token + "&source_id=resy.com-venue-details"
+        booking_payload = "book_token=" + book_token + "&struct_payment_method=" + payment_id + "&source_id=resy.com-venue-details"
         
         
         resp = requests.post(booking_url, headers=booking_headers, data=booking_payload)

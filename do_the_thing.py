@@ -45,8 +45,9 @@ def main():
     range_end = "21:00:00"
     weekdays = [4,5]
 
-    print("starting search for party size: [ {} ] between [ {} ] and [ {} ]".format(party_size, range_start, range_end))
-
+    print("starting search for party size [ {} ] between [ {} ] and [ {} ] on weekdays {}".format(party_size, range_start, range_end, weekdays))
+    print("venues: ", [venue_dict[venue] for venue in venue_list])
+    
     check_venue = [True for i in range(len(venue_list))]
 
     try:
